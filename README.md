@@ -1,10 +1,14 @@
 # java-comp
 
-Clones my java template repo from Github to the current folder
+Clones competitive programming setup/templates(Java & C++) to your local system with just one command. 
 
-> npx java-comp
-
+ - Java setup [repo](https://github.com/Aksh-Bansal-dev/javaCompetitiveProgramming)
+ - C++ template [repo](https://github.com/yatharthagoenka/CPP-Template)
 
 ## Prerequisites(these should be installed on the system)
  - Nodejs
  - git
+
+## How to use
+> npx java-comp
+
