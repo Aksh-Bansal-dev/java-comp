@@ -13,8 +13,13 @@
     "competitive-coding"
   ],
   "author": "Aksh Bansal",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aksh-Bansal-dev/java-comp.git"
+  },
+  "homepage": "https://github.com/Aksh-Bansal-dev/java-comp#readme"
 }
