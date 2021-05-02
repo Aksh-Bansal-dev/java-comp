@@ -3,5 +3,5 @@
 const shell = require("shelljs");
 
 console.log("Cloning the template...")
-shell.exec("script.sh");
+shell.exec(`${process.cwd()}/script.sh`);
 console.log("Done!");
