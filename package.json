@@ -1,7 +1,7 @@
 {
   "name": "java-comp",
-  "version": "1.0.1",
-  "description": "Clone the java template repo from github to current folder",
+  "version": "1.1.0",
+  "description": "Clone the java or c++ template repo from github to current folder",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
@@ -10,11 +10,14 @@
   "keywords": [
     "java",
     "competitive-programming",
-    "competitive-coding"
+    "competitive-coding",
+    "c++",
+    "cpp"
   ],
   "author": "Aksh Bansal",
   "license": "MIT",
   "dependencies": {
+    "inquirer": "^8.0.0",
     "shelljs": "^0.8.4"
   },
   "repository": {
