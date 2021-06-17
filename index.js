@@ -14,7 +14,6 @@ inquirer
   ])
   .then((answers) => {
     console.log("Cloning the template...");
-    shell.exec("ls");
     if (answers.lang === "Java") {
       shell.exec(
         `git clone https://github.com/Aksh-Bansal-dev/javaCompetitiveProgramming.git`
