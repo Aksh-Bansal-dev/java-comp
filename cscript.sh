@@ -1,1 +1,1 @@
-git clone https://github.com/yatharthagoenka/CPP-Template.git
+git clone https://github.com/masterchief164/templates.git

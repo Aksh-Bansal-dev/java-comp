@@ -1,6 +1,6 @@
 {
   "name": "java-comp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Clone the java or c++ template repo from github to current folder",
   "main": "index.js",
   "bin": "index.js",
