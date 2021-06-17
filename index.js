@@ -16,10 +16,12 @@ inquirer
     console.log("Cloning the template...");
     shell.exec("ls");
     if (answers.lang === "Java") {
-      shell.exec(`./jscript.sh`);
+      shell.exec(
+        `git clone https://github.com/Aksh-Bansal-dev/javaCompetitiveProgramming.git`
+      );
       console.log("Done!");
     } else if (answers.lang === "C++") {
-      shell.exec(`./cscript.sh`);
+      shell.exec(`git clone https://github.com/masterchief164/templates.git`);
       console.log("Done!");
     } else {
       console.log("ERROR!!\n Make sure you have git and npm installed.");
