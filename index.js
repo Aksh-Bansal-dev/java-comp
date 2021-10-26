@@ -9,7 +9,7 @@ inquirer
       type: "list",
       message: "Select the language: ",
       name: "lang",
-      choices: ["Java", "C++"],
+      choices: ["Java", "C++", "VSC task"],
     },
   ])
   .then((answers) => {
@@ -21,6 +21,11 @@ inquirer
       console.log("Done!");
     } else if (answers.lang === "C++") {
       shell.exec(`git clone https://github.com/masterchief164/templates.git`);
+      console.log("Done!");
+    } else if (answers.lang === "VSC task") {
+      shell.exec(
+        `wget -P .vscode https://raw.githubusercontent.com/Aksh-Bansal-dev/javaCompetitiveProgramming/main/.vscode/tasks.json`
+      );
       console.log("Done!");
     } else {
       console.log("ERROR!!\n Make sure you have git and npm installed.");
